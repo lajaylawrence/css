@@ -3,7 +3,7 @@ body{
 }
 
 #iframeChat{
-    background-image: url('https://as1.ftcdn.net/jpg/02/75/37/56/500_F_275375653_fU8AIvCnCP1mXEkrd1Eb1UogVR5CNMds.jpg');
+    background-image: url('https://as1.ftcdn.net/jpg/02/75/37/56/500_F_275375653_fU8AIvCnCP1mXEkrd1Eb1UogVR5CNMds.jpg') !important;
 }
 
 .wrapperChat {
@@ -11,7 +11,7 @@ body{
 }
 
 #header{
-   
+   background: linear-gradient(76deg, rgba(209,0,29,1) 1%, rgba(173,49,91,1) 42%, rgba(89,161,235,1) 100%) !important;
 }
 
 .header-chat-logo{
