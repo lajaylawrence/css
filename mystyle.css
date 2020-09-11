@@ -17,3 +17,8 @@ body{
 .header-chat-logo{
     
 }
+
+.welcome {
+    background-color: linear-gradient(76deg, rgba(209,0,29,1) 1%, rgba(173,49,91,1) 42%, rgba(89,161,235,1) 100%) !important; 
+    color: #fff;
+}
