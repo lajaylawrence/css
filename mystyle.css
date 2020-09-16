@@ -2,5 +2,7 @@
 background: linear-gradient(122deg, rgba(37,11,209,1) 0%, rgba(0,116,196,1) 25%, rgba(0,119,197,1) 43%, rgba(0,228,255,1) 100%);
 }
 
-
+.dropdown-toggle .hamburger-header{
+    color: rgba(0,228,255,1) !important;
+}
 
