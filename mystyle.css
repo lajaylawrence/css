@@ -103,7 +103,8 @@ div.message img.userItem {
 
 }
 
-#roomsContainer2, #usersContainer2, #friendsContainer2 {
+#roomsContainer2 {
 
     padding: 10px 10px !important;
+    background: #001a2e !important;
 }
