@@ -35,24 +35,25 @@ background: linear-gradient(122deg, rgba(37,11,209,1) 0%, rgba(0,116,196,1) 25%,
 #tabs .nav-tabs {
     
     background-color: white;
-    box-shadow: inset 35px 30px 37px -39px rgba(0,95,196,1);
+    box-shadow: inset 35px 30px 13px -27px rgba(0,95,196,1);
 }
 
 
 /* message container */
 
 #tabs .tab-pane {
-    height: 95%!important;
+    height: 98%!important;
     bottom: 0!important;
     padding: 10px!important;
     background-color: rgba(0, 0, 0, 0.607) !important;
     border-radius: 10px !important;
-    margin: 10px !important;
+    margin: 5px !important;
 }
 /* contsiner for the  room containers*/
 #tabs > .tab-content {
+    border-radius: 0px 10px 10px 10px !important;
+    height: calc(100% - 20px)!important;
 
-    border-radius: 10px !important;
 }
 
 /* user name */
@@ -106,5 +107,11 @@ div.message img.userItem {
 #roomsContainer2 {
 
     padding: 10px 10px !important;
-    background: #001a2e !important;
+    /* background: #001a2e !important; */
+}
+
+/* message font */
+div.message div.content {
+
+    color: #001a2e !important;
 }
