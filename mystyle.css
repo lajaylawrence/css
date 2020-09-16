@@ -1,8 +1,109 @@
+#test{
+    color: #050035;
+}
+
 #header{
 background: linear-gradient(122deg, rgba(37,11,209,1) 0%, rgba(0,116,196,1) 25%, rgba(0,119,197,1) 43%, rgba(0,228,255,1) 100%);
 }
 
+/* welcome message */
 .serverMessage {
     background: linear-gradient(122deg, rgba(37,11,209,1) 0%, rgba(0,116,196,1) 25%, rgba(0,119,197,1) 43%, rgba(0,228,255,1) 100%) !important;
 }
 
+.welcome {
+    
+    color: #ffffff;
+}
+
+/* settings icon */
+.hamburger-header:after {
+
+    color: white;
+}
+
+/* room tabs */
+#tabs .nav-tabs>li.active a {
+     background: linear-gradient(122deg, rgba(37,11,209,1) 0%, rgba(0,116,196,1) 25%, rgba(0,119,197,1) 43%, rgba(0,228,255,1) 100%) !important;
+}
+
+/* searchbar */
+.search-bar {
+    background: #001a2e !important;
+}
+
+#tabs .nav-tabs {
+    
+    background-color: white;
+    box-shadow: inset 35px 30px 37px -39px rgba(0,95,196,1);
+}
+
+
+/* message container */
+
+#tabs .tab-pane {
+    height: 95%!important;
+    bottom: 0!important;
+    padding: 10px!important;
+    background-color: rgba(0, 0, 0, 0.607) !important;
+    border-radius: 10px !important;
+    margin: 10px !important;
+}
+/* contsiner for the  room containers*/
+#tabs > .tab-content {
+
+    border-radius: 10px !important;
+}
+
+/* user name */
+.userItem {
+    color: white!important;
+    font-weight: 100 !important;
+}
+
+/* message time stamp */
+.message .timeStamp, .messageWindowPrivate .timeStamp {
+    font-style: italic;
+    color: rgb(190, 190, 190) !important;
+}
+
+/* user's message box image icon */
+div.message img.userItem {
+
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 2px grey;
+}
+
+/* message input area */
+.emojionearea {
+    background: #fff!important;
+    border-radius: 10px!important;
+    border: none!important;
+    box-shadow: 0px 0px 15px 1px grey;
+    
+}
+
+/* rooms table , rows */
+#tableRoomBody2 td {
+
+    background: white !important;
+}
+
+@media only screen and (max-width: 768px){
+.table-bordered>tbody>tr>td {
+    padding: 10px 10px!important;
+}
+}
+
+/* gen */
+.table-bordered>tbody>tr>td, .table-bordered>tbody>tr>th, .table-bordered>tfoot>tr>td, .table-bordered>tfoot>tr>th, .table-bordered>thead>tr>td, .table-bordered>thead>tr>th {
+ 
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+
+}
+
+#roomsContainer2, #usersContainer2, #friendsContainer2 {
+
+    padding: 10px 10px !important;
+}
